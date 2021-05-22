@@ -1,13 +1,6 @@
   
 {
   "name": "sitecore.demo.theme",
-  "keywords": [
-    "Bootstrap",
-    "Sitecore"
-  ],
-  "license": "MIT",
-  "homepage": "http://github.com/sitecore/sitecore.demo.theme/readme.md",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",

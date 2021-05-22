@@ -1,13 +1,6 @@
   
 {
   "name": "sitecore.demo.theme",
-  "authors": [
-    "Thomas Eldblom <the@sitecore.net>"
-  ],
-  "description": "Bootstrap theme for the Sitecore Demo sites",
-  "main": [
-    "./sass/default.scss"
-  ],
   "keywords": [
     "Bootstrap",
     "Sitecore"
@@ -15,10 +8,6 @@
   "license": "MIT",
   "homepage": "http://github.com/sitecore/sitecore.demo.theme/readme.md",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sitecore/sitecore.demo.theme.git"
-  },
   "ignore": [
     "**/.*",
     "node_modules",
@@ -44,29 +33,5 @@
     "imagesloaded": "~4.1.0",
     "bootstrap-colequalizer": "^1.1.0",
     "chart.js": "^2.4.0"
-  },
-  "overrides": {
-    "bootstrap-sass": {
-      "main": [
-        "assets/stylesheets/_bootstrap.scss",
-        "assets/fonts/bootstrap/*",
-        "assets/javascripts/bootstrap.js"
-      ]
-    },
-    "font-awesome": {
-      "main": [
-        "fonts/*"
-      ]
-    },
-    "OwlCarousel": {
-      "main": [
-        "owl-carousel/owl.carousel.js",
-        "owl-carousel/owl.carousel.css"
-      ]
-    }
-  },
-  "devDependencies": {
-    "chai": "~3.4.2",
-    "mocha": "~2.3.4"
   }
 }
